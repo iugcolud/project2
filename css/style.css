@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.min{
+    /* padding: 120px 0px; */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.min .content{
+    color: rgb(0, 0, 0);
+    padding: 90px ;
+    position: absolute;
+    /* background-color: #00000063; */
+    top: -1;
+    left:0;
+    margin-top: 200px;
+}
+
+.min .content .btn{
+    margin-right:5px;
+}
+
+.content .image{
+    padding-left: 10px;
+    
+}
+
+.content .image input{
+    border-radius: 4px;
+    
+}
+
+.content .key {
+    margin-top: 20px;
+    
+    
+}
+.content .key input {
+    /* margin: 6px; */
+    padding: 7px;
+    width: 385px;
+    height: 50px;
+    background-color: #000;
+    color:azure;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    transition: 1s;
+}
+.content .key input:hover {
+    background-color: rgba(5, 5, 5, 0.782);
+    /* color: white; */
+    transition: 0.5s;
+    
+}
+
+
+button{
+    border-radius: 4px;
+    margin-top: 5px;
+
+}
+
+
+
+
+.map-sec{
+    background-image: url(./2112.w039.n003.49B.p1.49.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.699);
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.map-sec .input-serch{
+    background-color: #2a7bb9c9;
+    border-radius: 10px;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    width: 490px;
+    height: 450px;
+    
+}
+.map-sec input{
+    padding: 16px;
+    margin: 15px;
+    width: 73%;
+    border-radius: 10px;
+    border: none;
+
+}
+.map-sec button{
+    background-color: #000000;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+    padding:10px 25px;
+    position: absolute;
+    top: 20px;
+    left: 380px;
+    
+}
+
+
+
+
+/* start section search*/
+
+.search{
+    background-image: url('../images/hologram-projector-screen-with-cloud-system-technology.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.search .searchKey{
+    background-color: #0000005c;
+    color: white;
+    border-radius: 7px;
+    height: 500px;
+    width: 450px;
+    padding: 25px;
+    position: absolute;
+    top: 80px;
+    left: 550px;
+}
+
+.search .searchKey .serach-input input {
+    /* margin: 6px; */
+    padding: 7px;
+    width: 385px;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    border: 1px solid #000;
+    border-radius: 7px;
+    transition: 1s;
+}
+
+.search .searchKey .search-btn{
+    margin-top: 10px;
+    /* color: rgb(0, 0, 0); */
+
+}
+
+/*End section search*/
+
+
+
+/*start section showKey*/
+/* .show{
+    background-image: url(../images/you.jfif);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.show .contant1{
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+thead{
+    text-align: center;
+    padding: 30px;
+    color:azure;
+}
+tbody{
+    text-align: center;
+    color:azure;
+}
+ */
+
+
+/*end section showKey*/
